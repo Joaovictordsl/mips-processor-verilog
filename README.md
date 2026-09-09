@@ -6,6 +6,12 @@ The project connects instruction decoding, register access, a structural ripple-
 
 **Scope:** 11 supported instructions, 32 general-purpose register addresses (with register zero protected), separate instruction/data memories, and simulation tests. This is an educational MIPS subset without pipeline registers or branch delay slots.
 
+## Simulation
+
+Simulation showing the ALU subtracting 1 from 6, producing 5.
+
+![MIPS processor simulation](prints/screenshot.png)
+
 ## Run the tests
 
 Prerequisites: **Icarus Verilog** (`iverilog` and `vvp`) and **GNU Make**. The testbenches use SystemVerilog; the processor RTL is Verilog.
